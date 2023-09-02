@@ -1,0 +1,203 @@
+/* ================================================================================= */
+/* ooooooooo.--ooooooo--.oooooo.-----.oooooo.--oooooooooooo-ooooooooo.----.oooooo..o */
+/* 888'---`Y8b--`888'--d8P'--`Y8b---d8P'  `Y8b-`888'-----`8-`888---`Y88.-d8P'----`Y8 */
+/* 888------888--888--888----------888----------888----------888---.d88'-Y88bo.----- */
+/* 888------888--888--888----------888----------888oooo8-----888ooo88P'---`"Y8888o.- */
+/* 888------888--888--888-----oOOo-888-----oOOo-888----"-----888`88b.---------`"Y88b */
+/* 888-----d88'--888--`88.----.88'-`88.----.88'-888-------o--888--`88b.--oo-----.d8P */
+/* 888bood8P'--oo888oo-`Y8bood8P'---`Y8bood8P'-o888ooooood8-o888o--o888o-8""88888P'- */
+/* ================================================================================= */
+/* Copyright (c) MS-Design, 2007     Copyright (c) Millennium Interactive Ltd., 1994 */
+/* ================================================================================= */
+/* INCLUDES                                                                          */
+/* --------------------------------------------------------------------------------- */
+#include <winver.h>                    // For version data
+#include <winuser.rh>                  // For manifest id's
+/* ================================================================================= */
+/* DEFINES                                                                           */
+/* --------------------------------------------------------------------------------- */
+#define VS_MAJOR                     0 // Major version of program
+#define VS_MINOR                    83 // Minor version of program
+#define VS_BUILD                     0 // Build version of program
+#define VS_REVISION                  0 // Revision of version of program
+/* ================================================================================= */
+/* ICONS                                                                             */
+/* --------------------------------------------------------------------------------- */
+0x01 ICON diggers.ico
+/* ================================================================================= */
+/* BITMAPS                                                                           */
+/* --------------------------------------------------------------------------------- */
+0x01 BITMAP graphics\tmasks.bmp
+/* ================================================================================= */
+/* TEXTURES                                                                          */
+/* --------------------------------------------------------------------------------- */
+/* Texture data. Remember to maintain the correct order as specified in              */
+/* the ENUM TEXID structure in the DIGGERS source code.                              */
+/* --------------------------------------------------------------------------------- */
+0x01 TEXDATA graphics\fontla.bmp
+0x02 TEXDATA graphics\fontsm.bmp
+0x03 TEXDATA graphics\fontti.bmp
+0x04 TEXDATA graphics\hpbar.bmp
+0x05 TEXDATA graphics\loading.bmp
+0x06 TEXDATA graphics\logo.bmp
+0x07 TEXDATA graphics\pdesert.bmp
+0x08 TEXDATA graphics\pgrass.bmp
+0x09 TEXDATA graphics\pislands.bmp
+0x0A TEXDATA graphics\pjungle.bmp
+0x0B TEXDATA graphics\pmountn.bmp
+0x0C TEXDATA graphics\prock.bmp
+0x0D TEXDATA graphics\psnow.bmp
+0x0E TEXDATA graphics\ptrans.bmp
+0x0F TEXDATA graphics\races.bmp
+0x10 TEXDATA graphics\tdesert.bmp
+0x11 TEXDATA graphics\tgrass.bmp
+0x12 TEXDATA graphics\tislands.bmp
+0x13 TEXDATA graphics\tjungle.bmp
+0x14 TEXDATA graphics\tmountn.bmp
+0x15 TEXDATA graphics\trock.bmp
+0x16 TEXDATA graphics\tsnow.bmp
+0x17 TEXDATA graphics\tsprites.bmp
+0x18 TEXDATA graphics\tintrfce.bmp
+/* ================================================================================= */
+/* LEVEL DATA                                                                        */
+/* --------------------------------------------------------------------------------- */
+/* Level data. Remember to maintain the correct order as specified in                */
+/* the LEVELINFO structure in the DIGGERS source code.                               */
+/* --------------------------------------------------------------------------------- */
+0x01 LEVELODATA levels\azerg.dao
+0x01 LEVELDATA levels\azerg.dat
+0x02 LEVELODATA levels\dhobbs.dao
+0x02 LEVELDATA levels\dhobbs.dat
+0x03 LEVELODATA levels\elevate.dao
+0x03 LEVELDATA levels\elevate.dat
+0x04 LEVELODATA levels\deena.dao
+0x04 LEVELDATA levels\deena.dat
+0x05 LEVELODATA levels\justyn.dao
+0x05 LEVELDATA levels\justyn.dat
+0x06 LEVELODATA levels\fujale.dao
+0x06 LEVELDATA levels\fujale.dat
+0x07 LEVELODATA levels\haeward.dao
+0x07 LEVELDATA levels\haeward.dat
+0x08 LEVELODATA levels\sairruhr.dao
+0x08 LEVELDATA levels\sairruhr.dat
+0x09 LEVELODATA levels\traaghe.dao
+0x09 LEVELDATA levels\traaghe.dat
+0x0A LEVELODATA levels\kurvelyn.dao
+0x0A LEVELDATA levels\kurvelyn.dat
+0x0B LEVELODATA levels\squeek.dao
+0x0B LEVELDATA levels\squeek.dat
+0x0C LEVELODATA levels\mykeborl.dao
+0x0C LEVELDATA levels\mykeborl.dat
+0x0D LEVELODATA levels\zorlyack.dao
+0x0D LEVELDATA levels\zorlyack.dat
+0x0E LEVELODATA levels\ftargus.dao
+0x0E LEVELDATA levels\ftargus.dat
+0x0F LEVELODATA levels\traisa.dao
+0x0F LEVELDATA levels\traisa.dat
+0x10 LEVELODATA levels\klindyke.dao
+0x10 LEVELDATA levels\klindyke.dat
+0x11 LEVELODATA levels\eeanzone.dao
+0x11 LEVELDATA levels\eeanzone.dat
+0x12 LEVELODATA levels\chysshir.dao
+0x12 LEVELDATA levels\chysshir.dat
+0x13 LEVELODATA levels\djennee.dao
+0x13 LEVELDATA levels\djennee.dat
+0x14 LEVELODATA levels\dwindera.dao
+0x14 LEVELDATA levels\dwindera.dat
+0x15 LEVELODATA levels\twang.dao
+0x15 LEVELDATA levels\twang.dat
+0x16 LEVELODATA levels\habbard.dao
+0x16 LEVELDATA levels\habbard.dat
+0x17 LEVELODATA levels\benjar.dao
+0x17 LEVELDATA levels\benjar.dat
+0x18 LEVELODATA levels\shrubree.dao
+0x18 LEVELDATA levels\shrubree.dat
+0x19 LEVELODATA levels\barok.dao
+0x19 LEVELDATA levels\barok.dat
+0x1A LEVELODATA levels\muhlahrd.dao
+0x1A LEVELDATA levels\muhlahrd.dat
+0x1B LEVELODATA levels\chonskee.dao
+0x1B LEVELDATA levels\chonskee.dat
+0x1C LEVELODATA levels\purth.dao
+0x1C LEVELDATA levels\purth.dat
+0x1D LEVELODATA levels\ankh.dao
+0x1D LEVELDATA levels\ankh.dat
+0x1E LEVELODATA levels\zelios.dao
+0x1E LEVELDATA levels\zelios.dat
+0x1F LEVELODATA levels\fruer.dao
+0x1F LEVELDATA levels\fruer.dat
+0x20 LEVELODATA levels\klarsh.dao
+0x20 LEVELDATA levels\klarsh.dat
+0x21 LEVELODATA levels\suhmner.dao
+0x21 LEVELDATA levels\suhmner.dat
+0x22 LEVELODATA levels\simtob.dao
+0x22 LEVELDATA levels\simtob.dat
+/* ================================================================================= */
+/* XM MUSIC MODULES                                                                  */
+/* --------------------------------------------------------------------------------- */
+// Music data. Remember to maintain the correct order as specified in
+// the ENUM MUSICID structure in the DIGGERS source code.
+/* --------------------------------------------------------------------------------- */
+0x01 XMDATA music\modules\mbank.xm
+0x02 XMDATA music\modules\mingame.xm
+0x03 XMDATA music\modules\mlose.xm
+0x04 XMDATA music\modules\mmenu.xm
+0x05 XMDATA music\modules\mselect.xm
+0x06 XMDATA music\modules\mshop.xm
+0x07 XMDATA music\modules\mtitle.xm
+0x08 XMDATA music\modules\mwin.xm
+/* ================================================================================= */
+/* WAVE SOUND EFFECTS                                                                */
+/* --------------------------------------------------------------------------------- */
+/* Sound effects data. Remember to maintain the correct order as specified in        */
+/* the ENUM SFXID structure in the DIGGERS source code.                              */
+/* --------------------------------------------------------------------------------- */
+0x01 WAVEDATA sounds\sclick.wav
+0x02 WAVEDATA sounds\sdieft.wav
+0x03 WAVEDATA sounds\sdiegr.wav
+0x04 WAVEDATA sounds\sdieha.wav
+0x05 WAVEDATA sounds\sdiequ.wav
+0x06 WAVEDATA sounds\sdig.wav
+0x07 WAVEDATA sounds\serror.wav
+0x08 WAVEDATA sounds\sexplode.wav
+0x09 WAVEDATA sounds\sfind.wav
+0x0A WAVEDATA sounds\sgclose.wav
+0x0B WAVEDATA sounds\sgopen.wav
+0x0C WAVEDATA sounds\sjump.wav
+0x0D WAVEDATA sounds\skick.wav
+0x0E WAVEDATA sounds\sphase.wav
+0x0F WAVEDATA sounds\spunch.wav
+0x10 WAVEDATA sounds\sselect.wav
+0x11 WAVEDATA sounds\strade.wav
+/* ================================================================================= */
+/* VERSION INFO BLOCK                                                                */
+/* --------------------------------------------------------------------------------- */
+1 VERSIONINFO
+PRODUCTVERSION VS_MAJOR,VS_MINOR,VS_BUILD,VS_REVISION
+FILEVERSION VS_MAJOR,VS_MINOR,VS_BUILD,VS_REVISION
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "08090000"
+    {
+      VALUE "CompanyName", "MS-Design"
+      VALUE "FileDescription", "Diggers"
+      VALUE "FileVersion", "Windows® 4.0"
+      VALUE "LegalCopyright", "© MS-Design. All rights reserved."
+      VALUE "OriginalFilename", "DIGGERS.EXE"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0809 0x0000
+  }
+}
+/* ================================================================================= */
+/* MANIFEST                                                                          */
+/* --------------------------------------------------------------------------------- */
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST diggers.man
+/* ================================================================================= */
+/* END-OF-FILE                                                           END-OF-FILE */
+/* ================================================================================= */
